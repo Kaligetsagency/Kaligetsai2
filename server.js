@@ -73,7 +73,7 @@ JSON FORMAT TO RETURN:
 
   let isComplete = false;
   let loops = 0;
-  const MAX_LOOPS = 10;
+  const MAX_LOOPS = 1000;
 
   while (!isComplete && loops < MAX_LOOPS) {
     loops++;
